@@ -1,0 +1,10 @@
+.form_dropzone__wrapper {
+  width: 500px;
+  height: 500px;
+  display: flex;
+}
+.form_dropzone {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+}
