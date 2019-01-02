@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ExifData from 'components/ExifData';
 import ExifDataDisplay from 'components/ExifDataDisplay';
+import GoogleMap from 'components/GoogleMap';
 
 class Home extends Component {
   render() {
@@ -10,6 +11,7 @@ class Home extends Component {
         Home
         <ExifData/>
         <ExifDataDisplay/>
+        <GoogleMap/>
       </div>
     );
   }

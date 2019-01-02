@@ -8,7 +8,10 @@ const renderDropzoneInput = (field) => {
   //const files = field.input.value;
   return (
     <div className="form_dropzone__wrapper">
-      <Dropzone onDrop={( filesToUpload, e ) => field.input.onChange(filesToUpload)}>
+      <Dropzone
+        onDrop={( filesToUpload, e ) => field.input.onChange(filesToUpload)}
+
+      >
         {({getRootProps, getInputProps, isDragActive}) => {
           return (
             <div
